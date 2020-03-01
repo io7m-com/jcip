@@ -1,5 +1,5 @@
 /*
- * Copyright 2013 Stephen Connolly.
+ * Copyright © 2013 Stephen Connolly.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -41,5 +41,6 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Documented
 @Target(TYPE)
 @Retention(RUNTIME)
-public @interface Immutable {
+public @interface Immutable
+{
 }
