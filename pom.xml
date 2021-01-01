@@ -33,7 +33,7 @@
   <packaging>jar</packaging>
   <version>2.0.0</version>
 
-  <name>JCIP Annotations under Apache License</name>
+  <name>com.io7m.jcip.annotations</name>
   <description>A clean room implementation of the JCIP Annotations based entirely on the specification provided by the javadocs.</description>
   <url>http://stephenc.github.com/jcip-annotations</url>
 
