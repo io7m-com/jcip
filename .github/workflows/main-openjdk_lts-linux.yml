@@ -16,8 +16,4 @@ jobs:
         with:
           java-version: 11
       - name: Build
-        run: mvn --errors clean verify site
-      - name: Coverage
-        uses: codecov/codecov-action@v1
-        with:
-          file: com.io7m.jcip-annotations.tests/target/site/jacoco/jacoco.xml
+        run: mvn --errors clean verify
