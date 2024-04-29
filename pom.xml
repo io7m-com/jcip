@@ -71,14 +71,14 @@
   </prerequisites>
 
   <scm>
-    <connection>scm:git:git://github.com/io7m/jcip-annotations.git</connection>
+    <connection>scm:git:git://www.github.com/io7m-com/jcip-annotations.git</connection>
     <developerConnection>scm:git:git@github.com/io7m/jcip-annotations.git</developerConnection>
-    <url>https://github.com/io7m/jcip-annotations/</url>
+    <url>https://www.github.com/io7m-com/jcip-annotations/</url>
   </scm>
 
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.com/io7m/jcip-annotations/issues</url>
+    <url>https://www.github.com/io7m-com/jcip-annotations/issues</url>
   </issueManagement>
 
   <distributionManagement>
