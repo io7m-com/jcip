@@ -29,30 +29,31 @@
   </parent>
 
   <groupId>com.io7m.jcip</groupId>
-  <artifactId>com.io7m.jcip.annotations</artifactId>
+  <artifactId>com.io7m.jcip</artifactId>
   <packaging>jar</packaging>
   <version>2.0.0</version>
 
-  <name>com.io7m.jcip.annotations</name>
+  <name>com.io7m.jcip</name>
   <description>A clean room implementation of the JCIP Annotations based entirely on the specification provided by the javadocs.</description>
-  <url>http://stephenc.github.com/jcip-annotations</url>
+  <url>https://www.io7m.com/software/jcip</url>
 
   <inceptionYear>2013</inceptionYear>
 
   <properties>
+    <!-- Configuration. -->
     <io7m.api.previousVersion>2.0.0</io7m.api.previousVersion>
-    <io7m.java.targetJavaVersion>21</io7m.java.targetJavaVersion>
+    <io7m.java.targetJavaVersion>17</io7m.java.targetJavaVersion>
   </properties>
 
   <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
       <distribution>repo</distribution>
     </license>
     <license>
       <name>ISC</name>
-      <url>http://io7m.com/license/isc.txt</url>
+      <url>https://www.io7m.com/license/isc.txt</url>
     </license>
   </licenses>
 
@@ -72,7 +73,7 @@
 
   <scm>
     <connection>scm:git:git://www.github.com/io7m-com/jcip-annotations.git</connection>
-    <developerConnection>scm:git:git@github.com/io7m/jcip-annotations.git</developerConnection>
+    <developerConnection>scm:git:git@github.com/io7m-com/jcip-annotations.git</developerConnection>
     <url>https://www.github.com/io7m-com/jcip-annotations/</url>
   </scm>
 
@@ -84,7 +85,7 @@
   <distributionManagement>
     <site>
       <id>github.com</id>
-      <url>gitsite:git@github.com/io7m/jcip-annotations</url>
+      <url>git:git@github.com/io7m-com/jcip-annotations</url>
     </site>
     <repository>
       <id>sonatype-nexus-staging</id>

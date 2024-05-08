@@ -1,0 +1,11 @@
+
+## jcip
+
+A clean room implementation of the [JCIP Annotations](https://jcip.net/) based entirely on the specification provided by the javadocs.
+
+## Features
+
+* [OSGi-ready](https://www.osgi.org/)
+* [JPMS-ready](https://en.wikipedia.org/wiki/Java_Platform_Module_System)
+* Apache 2.0 / ISC license.
+
