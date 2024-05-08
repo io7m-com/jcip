@@ -3,7 +3,7 @@ name: deploy.linux.temurin.lts
 
 on:
   push:
-    tags: [ com.io7m.jcip.annotations-* ]
+    tags: [ com.io7m.jcip-* ]
 
 jobs:
   build:

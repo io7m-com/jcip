@@ -35,7 +35,7 @@ jobs:
         if: always()
         with:
           name: test-logs
-          path: ./com.io7m.jcip.annotations.tests/target/surefire-reports
+          path: ./com.io7m.jcip.tests/target/surefire-reports
 
 
 
