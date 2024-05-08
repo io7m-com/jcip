@@ -25,33 +25,35 @@
   <parent>
     <groupId>com.io7m.primogenitor</groupId>
     <artifactId>com.io7m.primogenitor.full</artifactId>
-    <version>6.2.0</version>
+    <version>8.2.0</version>
   </parent>
 
   <groupId>com.io7m.jcip</groupId>
-  <artifactId>com.io7m.jcip.annotations</artifactId>
+  <artifactId>com.io7m.jcip</artifactId>
   <packaging>jar</packaging>
-  <version>2.0.0</version>
+  <version>2.0.1</version>
 
-  <name>JCIP Annotations under Apache License</name>
+  <name>com.io7m.jcip</name>
   <description>A clean room implementation of the JCIP Annotations based entirely on the specification provided by the javadocs.</description>
-  <url>http://stephenc.github.com/jcip-annotations</url>
+  <url>https://www.io7m.com/software/jcip</url>
 
   <inceptionYear>2013</inceptionYear>
 
   <properties>
-    <io7m.api.previousVersion>2.0.0</io7m.api.previousVersion>
+    <!-- Configuration. -->
+    <io7m.api.previousVersion>2.0.1</io7m.api.previousVersion>
+    <io7m.java.targetJavaVersion>17</io7m.java.targetJavaVersion>
   </properties>
 
   <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
       <distribution>repo</distribution>
     </license>
     <license>
-      <name>ISC License</name>
-      <url>http://io7m.com/license/isc.txt</url>
+      <name>ISC</name>
+      <url>https://www.io7m.com/license/isc.txt</url>
     </license>
   </licenses>
 
@@ -70,28 +72,28 @@
   </prerequisites>
 
   <scm>
-    <connection>scm:git:git://github.com/io7m/jcip-annotations.git</connection>
-    <developerConnection>scm:git:git@github.com/io7m/jcip-annotations.git</developerConnection>
-    <url>https://github.com/io7m/jcip-annotations/</url>
+    <connection>scm:git:git://www.github.com/io7m-com/jcip-annotations.git</connection>
+    <developerConnection>scm:git:git@github.com/io7m-com/jcip-annotations.git</developerConnection>
+    <url>https://www.github.com/io7m-com/jcip-annotations/</url>
   </scm>
 
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.com/io7m/jcip-annotations/issues</url>
+    <url>https://www.github.com/io7m-com/jcip-annotations/issues</url>
   </issueManagement>
 
   <distributionManagement>
     <site>
       <id>github.com</id>
-      <url>gitsite:git@github.com/io7m/jcip-annotations</url>
+      <url>git:git@github.com/io7m-com/jcip-annotations</url>
     </site>
     <repository>
       <id>sonatype-nexus-staging</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
     <snapshotRepository>
       <id>sonatype-nexus-snapshots</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+      <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 
@@ -99,22 +101,24 @@
     <dependency>
       <groupId>org.osgi</groupId>
       <artifactId>org.osgi.annotation.bundle</artifactId>
-      <version>1.0.0</version>
+      <version>2.0.0</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.osgi</groupId>
       <artifactId>org.osgi.annotation.versioning</artifactId>
-      <version>1.1.0</version>
+      <version>1.1.2</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>
 
   <build>
     <plugins>
+      <!-- Generate a site -->
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-checkstyle-plugin</artifactId>
+        <groupId>com.io7m.minisite</groupId>
+        <artifactId>com.io7m.minisite.maven_plugin</artifactId>
+        <inherited>false</inherited>
       </plugin>
     </plugins>
   </build>
