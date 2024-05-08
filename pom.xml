@@ -31,7 +31,7 @@
   <groupId>com.io7m.jcip</groupId>
   <artifactId>com.io7m.jcip</artifactId>
   <packaging>jar</packaging>
-  <version>2.0.0</version>
+  <version>2.0.1-SNAPSHOT</version>
 
   <name>com.io7m.jcip</name>
   <description>A clean room implementation of the JCIP Annotations based entirely on the specification provided by the javadocs.</description>
