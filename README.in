@@ -11,3 +11,6 @@ A clean room implementation of the [JCIP Annotations](https://jcip.net/) based e
 * [JPMS-ready](https://en.wikipedia.org/wiki/Java_Platform_Module_System)
 * Apache 2.0 / ISC license.
 
+## Usage
+
+See the [JCIP Javadoc](https://jcip.net/annotations/doc/index.html).
