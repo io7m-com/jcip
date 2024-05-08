@@ -5,6 +5,8 @@ A clean room implementation of the [JCIP Annotations](https://jcip.net/) based e
 
 ## Features
 
+* Supported by most good IDEs; get real-time warnings about issues such as
+  failing to acquire a lock before a guarded object is used.
 * [OSGi-ready](https://www.osgi.org/)
 * [JPMS-ready](https://en.wikipedia.org/wiki/Java_Platform_Module_System)
 * Apache 2.0 / ISC license.
